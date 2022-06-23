@@ -1,0 +1,25 @@
+body {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-image: url(https:rabstol.net/uploads/gallery/main/485/rabstol_net_inside_out_11.jpg);
+}
+
+.album {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25%;
+}
+
+.album img{
+	position: static;
+	width: 200px;
+	height: 600px;
+	overflow: hidden;
+}
+.active{
+	transform: scale(4,1.5);
+	transition-duration: 1s;
+}
+
